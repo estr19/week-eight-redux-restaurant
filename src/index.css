@@ -1,4 +1,5 @@
 body {
+  background-color: #161616;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +11,56 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.App {
+  display: flex;
+  justify-content: space-around;
+}
+
+.centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em;
+}
+
+.block {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 1.25em;
+}
+
+img {
+  width: 500px;
+}
+
+.cartIcon {
+  width: 100px;
+}
+
+.categoryButton:hover {
+  background-color: #fdeb6b;
+  cursor: pointer;
+}
+
+.categoryButtonSelected:hover {
+  background-color: #fdeb6b;
+  cursor: pointer;
+}
+
+.categoryButtonSelected {
+  background-color: green;
+}
+
+button {
+  cursor: pointer;
+  background-color: #fdeb6b;
+  margin: 0.5em;
+  border: none;
+  font-size: 1.25em;
+}
+
+.icon {
+  width: 1.3em;
+  cursor: pointer;
 }
